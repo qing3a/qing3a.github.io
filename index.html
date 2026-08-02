@@ -7,43 +7,43 @@
     <title>青山 · 作品总站</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #f6efe1;
-            --bg-2: #efe6d0;
-            --card: #fbf5e8;
-            --card-hi: #fffaf0;
+            --bg: #f3edde;
+            --bg-2: #ece4d2;
+            --card: #faf5ea;
+            --card-hi: #fffcf2;
             --ink: #2b2620;
-            --ink-2: #5a5244;
-            --muted: #8b7f68;
-            --cinnabar: #b03a2e;
-            --gold: #b08d4c;
-            --line: rgba(122, 92, 54, 0.18);
-            --shadow: rgba(122, 92, 54, 0.12);
+            --ink-2: #5c5345;
+            --muted: #8a7f6b;
+            --cinnabar: #8f3a2d;
+            --gold: #8a6f42;
+            --line: rgba(96, 78, 50, 0.16);
+            --shadow: rgba(96, 78, 50, 0.10);
         }
         @media (prefers-color-scheme: dark) {
             :root {
-                --bg: #171310;
-                --bg-2: #1e1913;
-                --card: #201b15;
-                --card-hi: #26201a;
-                --ink: #e8ddc6;
-                --ink-2: #c2b69c;
-                --muted: #9a8f7a;
-                --cinnabar: #d4856f;
-                --gold: #c9a45c;
-                --line: rgba(201, 164, 92, 0.22);
-                --shadow: rgba(0, 0, 0, 0.4);
+                --bg: #151210;
+                --bg-2: #1c1813;
+                --card: #1f1a14;
+                --card-hi: #262019;
+                --ink: #e6dcc4;
+                --ink-2: #c0b499;
+                --muted: #97896e;
+                --cinnabar: #c07a60;
+                --gold: #a98d5e;
+                --line: rgba(200, 170, 120, 0.18);
+                --shadow: rgba(0, 0, 0, 0.45);
             }
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         body {
-            font-family: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
+            font-family: 'Noto Serif', 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
             background:
-                radial-gradient(ellipse at 15% 0%, rgba(176, 58, 46, 0.05), transparent 44%),
-                radial-gradient(ellipse at 85% 100%, rgba(176, 141, 76, 0.06), transparent 46%),
+                radial-gradient(ellipse at 15% 0%, rgba(143, 58, 45, 0.04), transparent 44%),
+                radial-gradient(ellipse at 85% 100%, rgba(138, 111, 66, 0.05), transparent 46%),
                 repeating-linear-gradient(0deg, rgba(90, 82, 68, 0.012) 0 1px, transparent 1px 3px),
                 var(--bg);
             color: var(--ink);
@@ -78,7 +78,7 @@
             background: var(--cinnabar); color: #f7efe0;
             font-size: 11px; line-height: 1; border-radius: 3px;
             transform: rotate(-3deg);
-            box-shadow: 0 3px 10px rgba(176, 58, 46, 0.25);
+            box-shadow: 0 3px 10px rgba(143, 58, 45, 0.22);
         }
         .nav-brand .mini-seal span { display: flex; align-items: center; justify-content: center; }
         .nav-links { display: flex; gap: 20px; margin-left: auto; }
@@ -166,10 +166,10 @@
             background: var(--cinnabar); color: #fff9ee;
             font-size: 11.5px; letter-spacing: 3px;
             padding: 3px 16px; border-radius: 20px;
-            box-shadow: 0 4px 14px rgba(176, 58, 46, 0.25);
+            box-shadow: 0 4px 14px rgba(143, 58, 45, 0.22);
         }
         .work-card h3 {
-            font-family: 'Ma Shan Zheng', 'KaiTi', serif;
+            font-family: 'Noto Serif', 'Ma Shan Zheng', 'KaiTi', serif;
             font-weight: 400;
             font-size: 26px; letter-spacing: 2px;
             color: var(--ink);
@@ -191,7 +191,7 @@
         }
         .btn-primary {
             background: var(--cinnabar); color: #fff9ee;
-            box-shadow: 0 6px 20px rgba(176, 58, 46, 0.25);
+            box-shadow: 0 6px 20px rgba(143, 58, 45, 0.22);
         }
         .btn-primary:hover { transform: translateY(-2px); filter: brightness(1.06); }
         .btn-ghost { border: 1px solid var(--line); color: var(--ink-2); background: var(--bg); }
